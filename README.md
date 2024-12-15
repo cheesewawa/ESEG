@@ -1,6 +1,6 @@
 # ESEG: Event-based Segmentation Boosted by Explicit Edge-Semantic Guidance
 
-![ESEG Framework Illustration](./path_to_your_framework_image)  
+ 
 *A novel framework for event-based semantic segmentation.*
 
 ## Table of Contents
