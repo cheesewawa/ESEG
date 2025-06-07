@@ -34,7 +34,7 @@ This module enables adaptive fusion of sparse edge features and dense semantic f
 
 ESEG was evaluated on two standard ESS benchmarks: **DSEC-Semantic** and **DDD17**, achieving **state-of-the-art (SOTA)** performance in both accuracy and mIoU.
 
-### 🛣 DSEC-Semantic Dataset
+### DSEC-Semantic Dataset
 | Method        | Accuracy | mIoU  |
 |---------------|----------|-------|
 | ESEG-B (MiT-b0) | 90.22%   | 55.93 |
