@@ -30,7 +30,7 @@ This module enables adaptive fusion of sparse edge features and dense semantic f
 
 ---
 
-###  Source Code Structure
+##  Source Code Structure
 
 The core architecture and fusion mechanism of ESEG, including the implementation of the **D2CAF module** (Density-Aware Dynamic-Window Cross-Attention Fusion), is faithfully reproduced in the source file [`eseg_d2caf.py`](./eseg_d2caf.py). This file provides a clean and annotated implementation of the algorithm as described in the paper:
 
