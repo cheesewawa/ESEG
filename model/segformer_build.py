@@ -9,7 +9,7 @@ import sys
 import os
 
 root_path = os.path.abspath(__file__)
-root_path = '/'.join(root_path.split('/')[:-2])  # 解决no module named问题
+root_path = '/'.join(root_path.split('/')[:-2])  
 sys.path.append(root_path)
 from mmseg.models.builder import build_segmentor
 from model import mix_transformer
