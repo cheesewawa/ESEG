@@ -25,7 +25,7 @@ from torch.utils.data.distributed import DistributedSampler
 import sys
 import os
 root_path = os.path.abspath(__file__)
-root_path = '/'.join(root_path.split('/')[:-2]) # 解决no module named问题
+root_path = '/'.join(root_path.split('/')[:-2]) 
 sys.path.append(root_path)
 # from model.mix_transformer import mit_b0
 from model.segformer_build import EncoderDecoder
