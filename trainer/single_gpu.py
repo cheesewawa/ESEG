@@ -18,7 +18,7 @@ import warnings
 from torch.utils.data import Dataset, DataLoader
 # from lightly.loss.ntx_ent_loss import NTXentLoss
 os.environ["CUDA_VISIBLE_DEVICES"] = "4"
-# 这个是单卡的代码
+
 # from model.mix_transformer import mit_b0
 from model.segformer_build import EncoderDecoder
 from utils.utils_func import IOStream
