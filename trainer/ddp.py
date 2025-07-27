@@ -16,11 +16,6 @@ import torch.distributed as dist
 import torch._dynamo
 torch._dynamo.config.suppress_errors = True
 from torch.utils.data.distributed import DistributedSampler
-# from lightly.loss.ntx_ent_loss import NTXentLoss
-# Distributed训练：
-# cd /home/lk/MyProjects/RGB_only_v0/trainer/   
-# CUDA_VISIBLE_DEVICES=4,5 python -m torch.distributed.launch --nproc_per_node=4 RGB_only_trainer.py
-# CUDA_VISIBLE_DEVICES=4,5 python -m torch.distributed.launch --nproc_per_node=2 --master_port 29505 --use_env RGB_only_trainer.py
 
 import sys
 import os
