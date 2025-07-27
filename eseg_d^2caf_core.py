@@ -1,11 +1,11 @@
 
 """ESEG Implementation (Event‑based Segmentation boosted by Explicit Edge‑semantic Guidance)
 ==========================================================================================
-This file contains the PyTorch implementation of the **ESEG** backbone described in
+This file contains the code for the **ESEG** core framework structure described in
 "ESEG: Event‑Based Segmentation Boosted by Explicit Edge‑Semantic Guidance"
-(AAAI‑25, Zhao *et al.*).  The code keeps the *exact* computational graph of the
-original prototype that directly reference the corresponding sections, figures and
-formulas in the paper.
+(AAAI‑25, Zhao *et al.*) in PyTorch for quick reference and understanding. 
+The code keeps the exact computational graph of the original prototype that 
+directly reference the corresponding sections, figures, and equations in the paper.
 
 The backbone is composed of three main parts:
 
