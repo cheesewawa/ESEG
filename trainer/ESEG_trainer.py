@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 '''
-Segmentation training script for RGB‑event data (DSEC).
+Segmentation training script for DSEC.
 
 
 '''
